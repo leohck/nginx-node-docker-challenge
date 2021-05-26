@@ -1,0 +1,18 @@
+<html>
+    <head><title>Leonardo Black</title></head>
+    <body>
+        <h1>Full Cycle Rocks!</h1>
+        <p><%= last_registry%> Inserido com sucesso na tabela people!</p>
+        <table>
+            <tr>
+                <th> [<%=result_cont%>] Nomes cadastrados </th>
+            </tr>
+            <% result.forEach(function(entry) { %>
+            <tr>
+                <td><%= entry.name %></td>
+            </tr>
+            <% }) %>
+        </table>
+    </body>
+</html>
+
