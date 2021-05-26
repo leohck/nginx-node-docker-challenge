@@ -1,12 +1,1 @@
 node_modules
-mysql/mysql
-mysql/nodedb
-mysql/performance_schema
-mysql/sys
-mysql/*.pem
-mysql/auto.cnf
-mysql/ib_buffer_pool
-mysql/ib_logfile0
-mysql/ib_logfile1
-mysql/ibdata1
-mysql/ibtmp1
